@@ -1,0 +1,14 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+Local Player = game.Players.LocalPlayer
+local Window = Library.CreateLib("Trojan Hub", "Synapse")
+local Tab = Window:NewTab("Scripts!")
+local Section = Tab:NewSection("Blade Ball")
+Section:NewButton("AutoParry", "Parry's The Ball", function() loadstring(game:HttpGet("https://pastebin.com/raw/8b2V9WWn"))()
+end)
+Section:NewButton("Manual Spam", "Spams The Deflect", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
+end)
+local TabSuperCoolUltraCredits = Window:NewTab("Credits")
+local SectionCoolDudeForReal = TabSuperCoolUltraCredits:NewSection("Owner")
+SectionCoolDudeForReal:NewLabel("By Someone.... on YouTube!")
+
